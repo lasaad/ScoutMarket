@@ -4,9 +4,12 @@ import ShoppingList  from "@/components/ShoppingList";
 import React from "react";
 import QuestionForm from "@/components/QuestionForm";
 import { useState } from 'react'
+import Basket from "@/components/Basket";
 
 export default function Index() {  
   
+
+
   return (
     <View
       style={{
@@ -18,6 +21,7 @@ export default function Index() {
       <Banner/>
 
       {/* <ShoppingList/>  */}
+      <Basket />
       <ShoppingList /> 
       <QuestionForm />
       <Text>Text</Text>
